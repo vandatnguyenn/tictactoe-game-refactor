@@ -114,7 +114,7 @@ function Game() {
       <div className="game-info">
         <div>{status}</div>
         <button onClick={() => handleSortToggle()}>
-          {isAscending ? 'descending' : 'ascending' }  
+          {!isAscending ? 'descending' : 'ascending' }  
         </button>
         <ol>{movements}</ol>
       </div>
